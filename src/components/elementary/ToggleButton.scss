@@ -1,0 +1,16 @@
+.ToggleUnitSystem {
+  display: flex;
+  justify-content: center;
+  &__Value{
+    display: flex;
+    flex-flow: wrap row;
+    & > * {
+      padding: 0 5px;
+      margin: auto;
+    }
+    & p {
+      padding: 0 5px;
+      margin: auto;
+    }
+  }
+}

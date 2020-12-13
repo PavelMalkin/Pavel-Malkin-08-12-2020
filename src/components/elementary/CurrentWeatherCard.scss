@@ -1,0 +1,43 @@
+.CurrentWeatherCard {
+  padding: 10px;
+  margin: 1%;
+  box-sizing: border-box;
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+
+.CurrentWeatherCard_Home {
+  margin: 1%;
+  width: 250px;
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+    cursor: inherit;
+  }
+}
+
+@media (max-width: 1200px) {
+  .CurrentWeatherCard {
+    width: 30%;
+  }
+}
+
+@media (max-width: 728px) {
+  .CurrentWeatherCard {
+    width: 48%;
+  }
+  .CurrentWeatherCard_Home {
+    width: 98%;
+  }
+}
+
+@media (max-width: 480px) {
+  .CurrentWeatherCard {
+    width: 98%;
+  }
+}

@@ -1,0 +1,42 @@
+.CityContainer {
+  display: flex;
+  flex-flow: wrap column;
+  border-top: solid 1px #000000;
+
+  &__FirstRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 0;
+
+    & button {
+      height: fit-content;
+      box-sizing: border-box;
+      margin: 0;
+    }
+  }
+
+  &__MainCondition {
+    padding: 0 25px 25px 25px;
+  }
+
+  &__Forecast {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 728px) {
+  .CityContainer {
+    &__FirstRow {
+      justify-content: flex-end;
+      flex-direction: column-reverse;
+      padding: 0;
+
+      & button {
+        width: 98%;
+        margin: 1%;
+      }
+    }
+  }
+}

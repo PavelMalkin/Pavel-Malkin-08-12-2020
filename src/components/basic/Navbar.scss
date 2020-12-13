@@ -1,0 +1,34 @@
+.NavBar {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  //margin: 5px;
+  width: 100%;
+  border-bottom: 1px solid #000000;
+
+  &__buttons {
+    padding: 0 10px;
+    margin: 5px;
+    a{
+    text-decoration: none;
+    }
+
+    button {
+      margin: 5px;
+    }
+  }
+  &__name {
+    padding: 0 10px;
+  }
+  h5 {
+    margin: auto 0;
+  }
+
+}
+
+@media (max-width: 728px) {
+.NavBar {
+  flex-direction: column;
+}
+
+}
