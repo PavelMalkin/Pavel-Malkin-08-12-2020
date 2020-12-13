@@ -4,9 +4,10 @@ In the project directory, you should run:
 
 ### `npm install`
 
-Add .env with REACT_APP_ACUWEATHER_API_KEY=Your API KEY
+Add file to the root folder with REACT_APP_ACUWEATHER_API_KEY=Your API KEY
 
 then:
+
 ###`npm start`
 
 Runs the app in the development mode.<br />
